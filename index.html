@@ -3,22 +3,51 @@
   <head>
     <title>Google</title>
     <link type="text/css" rel="stylesheet" href="index.css">
-
   </head>
   <body>
-      <div id="navbar">
+
+    <div class="header">
+      <ul>
+        <li><a href="#Gmail">Gmail</a></li>
+        <li><a href="#Images">Images</a></li>
+        <li><a href="#Apps"><div id="apps_block"></div></a></li>
+        <li><a href="#SignIn"><div id="sign_in"><span style="color:white">Sign in</span></div></a></li>
+      </ul>
+    </div>
+
+    <div id="logo">
+      <img src="googlelogo.png" >
+    </div>
+
+    <div class="search_form">
+      <form action="#" method="GET" name="Search">
+        <div class="text_input">
+          <input type="text" name="search_input"><br>
+        </div>
+        <div class="submit_buttons">
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm feeling Lucky">
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="left">
         <ul>
-          <li><a href="#">Gmail</a></li>
-          <li><a href="#">Images</a></li>
-          <li><a href="#"><div class="menu_item"id="block"></div></a></li>
-          <li><a href="#"><div class="menu_item" id="signin">Sign in</div></a></li>
+          <li><a href="#Advertising">Advertising</a></li>
+          <li><a href="Business">Business</a></li>
+          <li><a href="#About">About</a></li>
         </ul>
       </div>
-      <img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.2-hp.gif">
-      <form action="#" method="get">
-        <input type="text" name="Search_input"><br>
-        <input type="submit" name="Search" value="Google Search">
-        <input type="submit" name="Lucky" value="I'm Feeling Lucky">
-      </form>
+
+      <div class="right">
+        <ul>
+          <li><a href="Privacy">Privacy</a></li>
+          <li><a href="Terms">Terms</a></li>
+          <li><a href="Settings">Settings</a></li>
+        </ul>
+      </div>
+    </div>
+
   </body>
 </html>
